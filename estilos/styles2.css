@@ -140,6 +140,10 @@ main div img{
    padding-bottom: 20px;
 }
 
+.int-img-2, .int-img-3, .int-img-4, .int-img-5, .int-img-6{
+    display: none;
+}
+
 /* Shows pag */
 .shows{
     
@@ -288,6 +292,9 @@ main div img{
 .bio-img-3{
     grid-column: span 2;
     height: 70%;
+}
+.int-img-2, .int-img-3, .int-img-4, .int-img-5, .int-img-6{
+    display: none;
 }
 
 .integrantes{
