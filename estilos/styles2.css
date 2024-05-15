@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gagalin', sans-serif;
+}
+
+body{
+    font-family: 'Gagalin', sans-serif;
+}
+
+/* General */
+
+.page-title-2{
+    display: flex;
+    justify-content: center;                    
+    text-decoration: underline;
+}
+.page-title{
+    display: flex;
+    justify-content: center;                    
+    text-decoration: underline;
+}
+
+/** MQ Celulares**/
+
+@media only screen and (max-width: 500px) {
+
+    /** Header stuff**/
+    header{
+        display: block;
+        text-decoration: none;
+        justify-content: center;
+
+    }
+    .link-res{
+        font-family: 'Gagalin', sans-serif;
+    }
+    header img{
+        width: 70% ;
+        justify-content: center;
+    }
+    #logo{
+        width: 33%;
+        justify-content: center;
+    }
+    .botones{
+    
+    justify-content: space-around;
+}
+.botones a{
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    width: 28px;
+    line-height: 30px;
+    background-color: black;
+    color: azure;
+    border-radius: 50%
+}
+
+/**En index nav**/
+nav{
+    background-color: rgb(211, 5, 5);
+}
+nav img{
+    width: 100%;
+
+}
+/** Imagenes grupos**/
+
+.full-img{
+    width: 100%;
+}
+
+
+
+/*Footer*/
+.footer-container {
+    padding-right: 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.diseñado {
+    align-self: center;
+    
+    font-size: small;
+}
+.ft-logo{
+    width: 20%;
+}
+
+/* Bio pag*/
+.bio-container{
+    background-color: rgb(211, 5, 5);
+    font-size: small;
+    
+}
+.bio{
+    font-family: 'Gagalin', sans-serif;
+
+}
+
+.page-title-2{
+    display: flex;
+    justify-content: center;                    
+    text-decoration: underline;
+}
+.main-txt{
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bio-img-container{
+    
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.bio-img-3{
+    grid-column: span 2;
+}
+
+.integrantes{
+   margin: 0 20px;
+   padding-bottom: 20px;
+}
+
+/* Shows pag */
+.shows{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+/* Musica pag */
+.musica{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 15px;
+    height: 75%;
+    margin: 15px 15px 0px 15px;
+    align-items: center;
+    padding-bottom: 15px;
+    
+}
+.portadas{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.album{
+    display: grid;
+   justify-self: center;
+}
+
+/* Contactos pag */
+.contactos{
+    margin: 15px 15px 0px 15px;
+    padding-bottom: 15px;
+}
+.margin{
+    
+    padding: 10px;
+}
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1200px){
+    
+        /** Header stuff**/
+        header{
+           display: flex;
+            text-decoration: none;
+            justify-content: center;
+    
+        }
+   
+        header img{
+            width: 70% ;
+            justify-content: center;
+        }
+        #logo{
+            width: 33%;
+            justify-content: center;
+        }
+        .botones{
+        justify-content: space-around;
+    }
+    .botones a{
+        text-decoration: none;
+        font-size: 30px;
+        text-align: center;
+        width: 56px;
+        line-height: 60px;
+        background-color: black;
+        color: azure;
+        border-radius: 50%
+    }
+
+    nav{
+        background-color: rgb(211, 5, 5);
+    }
+    nav img{
+        width: 100%;
+    }
+ /** Imagenes grupos**/
+    
+    .full-img{
+        width: 100%;
+    }
+/*Footer*/
+
+  .footer-container {
+      padding-right: 10px;
+      color: black;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: space-between;
+}
+
+.diseñado {
+    align-self: center;
+    font-size: x-large;
+}
+.ft-logo{
+    width: 20%;
+}
+
+.youtube{
+    height: 500px;
+}
+    
+/* BIO PAGINA TABLET*/
+
+.bio-container{
+    background-color: rgb(211, 5, 5);
+    font-size: x-large;
+    
+}
+.bio{
+    font-family: 'Gagalin', sans-serif;
+}
+
+.page-title-2{
+    display: flex;
+    justify-content: center;                    
+    text-decoration: underline;
+}
+.main-txt{
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bio-img-container{
+    height: 72vh;
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.bio-img-3{
+    grid-column: span 2;
+    height: 70%;
+}
+
+.integrantes{
+   margin: 0 20px;
+   padding-bottom: 20px;
+}
+.int-txt{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+/* SHOWS PAG TABLET */
+.shows{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+/* MUSICA PAG TABLET */
+.musica{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 15px;
+    /*height: 75%;*/
+    margin: 15px 15px 0px 15px;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.vh{
+    height: 65vh;
+}
+.portadas{
+    width: 70%;
+    height: 100%;
+    display: grid;
+    justify-self: center;
+}
+
+.album{
+    display: grid;
+   justify-self: start;
+}
+
+/* CONTACTOS PAG TABLET */
+.contactos{
+    margin: 15px 15px 0px 15px;
+    padding-bottom: 15px;
+}
+.margin{
+    
+    padding: 10px;
+}
+}
+
+/* MQ DESTKOP */
+
+@media only screen and (min-width: 1201px){
+
+/** Header stuff**/
+header{
+    display: flex;
+     text-decoration: none;
+     justify-content: space-between;
+ }
+
+ header img{
+     width: 60% ;
+     justify-content: center;
+ }
+ #logo{
+     width: 20%;
+     display: grid;
+     justify-items: center;
+ }
+ .navbar-collapse{
+    font-size: x-large;
+    max-width: 20%;
+    justify-content: end;
+ }
+ .container-fluid{
+    justify-content: space-between;
+ }
+ .navbar-expand-lg {
+    height: 150px;
+ }
+ .botones{
+ justify-content: space-around;
+}
+.botones a{
+ text-decoration: none;
+ font-size: 30px;
+ text-align: center;
+ width: 56px;
+ line-height: 60px;
+ background-color: black;
+ color: azure;
+ border-radius: 50%
+}
+
+nav{
+ background-color: rgb(211, 5, 5);
+}
+nav img{
+ width: 100%;
+}
+
+.vid-inicio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas: 
+    "escuchanos1 escuchanos2"
+    "youtube spotify";   
+}
+.escuchanos1{
+    grid-area: escuchanos1;
+}
+.escuchanos2{
+    grid-area: escuchanos2;
+}
+/** Imagenes grupos**/
+
+.full-img{
+ width: 100%;
+ height: 400px;
+ object-fit: cover;
+}
+/*Footer*/
+
+.footer-container {
+    height: 150px;
+padding-right: 10px;
+color: black;
+background-color: rgb(255, 255, 255);
+display: flex;
+justify-content: space-between;
+}
+
+.diseñado {
+    padding-right: 20px;
+align-self: center;
+font-size: x-large;
+}
+.ft-logo{
+padding-left: 20px;
+}
+
+.youtube{
+    grid-area: youtube;
+height: 370px;
+width: 550px;
+}
+.spotify{
+    grid-area: spotify;
+    height: 370px;
+width: 550px;
+}
+
+/* BIO PAGINA DESTKOP*/
+
+.bio-container{
+    background-color: rgb(211, 5, 5);
+    font-size: large;
+}
+.bio{
+    font-family: 'Gagalin', sans-serif;
+}
+
+.page-title-2{
+    display: flex;
+    justify-content: center;                    
+    text-decoration: underline;
+}
+.main-txt{
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bio-img-container{
+
+    margin: 10px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+
+main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.bio-img-3{
+    grid-column: span 2;
+    height: 100%;
+}
+
+.integrantes{
+   margin: 0 20px;
+   padding-bottom: 20px;
+}
+.int-txt{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.integrantes-fot{
+    margin: 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 500px 400px;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-bottom: 20px;
+}
+.int-img-1, .int-img-2{
+    grid-column: span 2;
+    height: 100%;
+}
+/* SHOWS PAG DESKTOP */
+.shows{
+    font-size: x-large;
+    height: 400px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+/* MUSICA PAG TABLET */
+.musica{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*grid-template-rows: repeat(2, 1fr);*/
+    row-gap: 15px;
+    margin: 15px 15px 0px 15px;
+    align-items: center;
+    padding-bottom: 15px;
+    grid-template-areas: 
+    "portada1 portada2"
+    "album1 album2";
+}
+
+#portada1{
+    grid-area: portada1;
+}
+
+#portada2{
+    grid-area: portada2;
+}
+
+#album1{
+    grid-area: album1;
+}
+
+#album2{
+    grid-area: album2;
+}
+.ul-es{
+    display: grid;
+    justify-content: center;
+}
+.portadas{
+    width: 30%;
+    height: 100%;
+    display: grid;
+    justify-self: center;
+    object-fit: cover;
+}
+
+.album{
+    align-self: start;
+    display: grid;
+    justify-self: center;
+}
+/* CONTACTOS PAG DESTKOP */
+.contactos{
+    margin: 15px 15px 0px 15px;
+    padding-bottom: 15px;
+}
+.margin{
+    
+    padding: 10px;
+}
+}
+
+
+header{
+    background-color: rgb(211, 5, 5);
+}
+
+header img{
+    width: 70% ;
+    justify-content: center;
+}
+.margin{
+    
+    padding: 10px;
+}
