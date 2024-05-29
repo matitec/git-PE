@@ -1,0 +1,40 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gagalin', sans-serif;
+    background-color: rgb(211, 5, 5);
+}
+
+.margin{
+    padding: 10px;
+}
+
+.page-title{
+    display: flex;
+    justify-content: center;                    
+    text-decoration: underline;
+}
+.main-txt{
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+}
+.full-img{ width: 100%;}
+
+@media only screen and (min-width: 501px){
+    .full-img{
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+@import "utilidades/redes";
+@import "areas/header";
+
+/* PAGINAS */
+
+@import "pages/bio";
+@import "pages/shows";
+@import "pages/contactos";
+

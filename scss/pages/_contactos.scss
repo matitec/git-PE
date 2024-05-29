@@ -1,0 +1,33 @@
+.contactos{
+    margin: 15px 15px 0px 15px;
+    padding-bottom: 15px;
+}
+
+input{
+    background-color: white;
+}
+textarea{
+    background-color: white;
+}
+.botones-c a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    width: 43px;
+    line-height: 40px;
+    background-color: black;
+    color: azure;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+@media only screen and (min-width: 991px){
+    main div p{
+        font-size: large;
+    }
+    .botones-c a{
+     font-size: 40px;
+     width: 68px;
+     line-height: 66px;
+     border-radius: 50%
+    }
+}

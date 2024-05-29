@@ -1,0 +1,42 @@
+.escuchanos1{
+    grid-area: escuchanos1;
+}
+.escuchanos2{
+    grid-area: escuchanos2;
+}
+.youtube{
+    grid-area: youtube;
+}
+.spotify{
+    grid-area: spotify;
+}
+.seguinos{
+    display: grid;
+    justify-items: center;
+    height: 20px;
+}
+@media only screen and (min-width: 501px){
+    
+    .vid-inicio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 60px 1fr;
+        column-gap: 10px;
+        grid-template-areas: 
+        "escuchanos1 escuchanos2"
+        "youtube spotify";   
+    }
+    
+    .youtube{
+        height: 100%;
+    }
+    .spotify{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 991px){
+    .vid-inicio{
+        grid-template-rows: 40px 1fr;
+    }
+}

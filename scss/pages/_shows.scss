@@ -1,0 +1,139 @@
+.shows{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 48% 48%;
+    justify-items: center;
+    height: 30vh;
+}
+@media only screen and (max-width: 1170px){
+    nav #vivo iframe{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1170px){
+    #vivo{
+        grid-template-rows: repeat(2, 250px);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 601px){
+    nav div.shows{
+        font-size: x-large;
+        height: 400px;
+        align-items: center;
+    }
+    #vivo{
+        display: grid;
+        justify-content: center;
+        row-gap: 10px;
+        column-gap: 10px;
+        grid-template-areas: 
+            "vid-1 vid-2"
+            "vid-3 vid-4";
+            #vid-1{
+                grid-area: vid-1;}
+            #vid-2{
+                grid-area: vid-2;}
+            #vid-3{
+                grid-area: vid-3;}
+            #vid-4{
+                grid-area: vid-4;}
+    }
+}
+
+
+
+/* MUSICA PAG */
+.musica{
+    display: grid;
+    row-gap: 15px;
+    height: 75%;
+    margin: 15px 15px 0px 15px;
+    align-items: center;
+    padding-bottom: 15px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+    justify-items: center;
+    grid-template-areas: 
+    "portada1 portada2"
+    "album1 album2"
+    "info-nena info-contigo"
+    "clip1 clip2"
+    "cl-nena cl-cont"
+    "ofi1 ofi2"
+    "nena contigo";
+    #portada1{
+        grid-area: portada1;}
+    #portada2{
+        grid-area: portada2;}
+    #album1{
+        grid-area: album1;}
+    #album2{
+        grid-area: album2;}
+    #clip1{
+        grid-area: clip1;}
+    #clip2{
+        grid-area: clip2;}
+    #cl-nena{
+        grid-area: cl-nena;}
+    #cl-cont{
+        grid-area: cl-cont;}      
+    #info-nena{
+        grid-area: info-nena;}
+    #info-contigo{
+        grid-area: info-contigo;}     
+    #ofi1{
+        grid-area: ofi1;}    
+    #ofi2{
+        grid-area: ofi2;}
+    #nena{
+        grid-area: nena;}
+    #contigo{
+        grid-area: contigo;}
+    .ul-es{
+        display: grid;
+        justify-content: center;}
+    .portadas{
+        width: 30%;
+        height: 100%;
+        display: grid;
+        justify-self: center;
+        object-fit: cover;
+    }
+    .album{
+        display: grid;
+       justify-self: center;
+       align-self: baseline;
+    }
+    
+}
+@media only screen and (max-width: 660px){
+    
+    #nena, #contigo{
+        width: 90%;
+        height: 90%;
+    }
+    #promo1, #promo2{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 501px){
+    #nena, #contigo{
+        width: 100%;
+        height: 250px;
+    }
+    #contigo{
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (min-width: 901px){
+    #nena, #contigo{
+        height: 350px;
+
+    }
+    
+}
